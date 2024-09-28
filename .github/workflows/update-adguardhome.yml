@@ -2,7 +2,7 @@ name: Update AdGuard Home
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 17 * * *"
+    - cron: "0 17 * * *"
   push:
     branches:
       - main
